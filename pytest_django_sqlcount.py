@@ -45,7 +45,7 @@ class SQLCountTerminalReporter(TerminalReporter):
             # probably passed setup/teardown
             return
         if self.sqlcount:
-            self._tw.write(" %d" % report.sqlcount, blue=True)
+            self._tw.write(" %d" % report.sqlcount, bold=True, blue=True)
 
 
 def pytest_runtest_makereport(item, call):
