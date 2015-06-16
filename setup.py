@@ -1,6 +1,6 @@
 import setuptools
 
-setuptools.setup(name='pytest-django-sqlcount',
+setuptools.setup(name='pytest-django-sqlcounts',
                  version='0.1.0',
                  description='py.test plugin for reporting the number of SQLs '
                              'executed per django testcase.',
